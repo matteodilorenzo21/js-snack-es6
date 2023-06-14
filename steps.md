@@ -43,3 +43,15 @@ Stampare in console la bici con peso minore utilizzando il destructuring.
 1. Dichiariamo una variabile **lowerWeightBike** che ha come valore il primo indice dell'Array di bici.
 2. Generiamo un ciclo For che confronta il peso di ogni bici e riassegna alla variabile dichiarata prima l'oggetto con la proprietà peso più bassa;
 3. Stampiamo in console l'oggetto con peso più basso.
+
+# LISTA SQUADRE
+Creare un array di oggetti di squadre di calcio.
+Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà punti fatti e falli subiti.
+Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+# Steps #4
+0. Creiamo un Array di squadre, dove ognuna avrà proprietà: **nome**, **punti fatti** e **falli subiti**, dove le ultime due saranno settate a 0.
+1. Usiamo un forEach che genera i valori per le proprietà punti fatti e falli subiti attraverso Math.random.
+2. Attraverso il metodo .map() generiamo un Array con i nuovi valori generati dall'operazione precedente.
