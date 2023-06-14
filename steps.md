@@ -30,3 +30,16 @@ Per preparare l'aula di un nuovo corso, dobbiamo svolgere una serie di operazion
 1. Usiamo il metodo **filter** per gli studenti con voto superiore a 70 salvandoli nell'Array **studentiVotiSuperiori70**.
 2. Usiamo il metodo **filter** per gli studenti con voti superiori a 70 e id superiore a 120 salvandoli nell'Array **studentiVotiSuperiori70IdSuperiore120**.
 3. Crea un array **nomiStudentiMaiuscolo** utilizzando il metodo map per salvare il nome degli studenti in maiuscolo.
+
+
+# LISTA BICI
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: name e weight.
+Stampare in console la bici con peso minore utilizzando il destructuring.
+
+# Steps #3
+
+0. Creiamo un Array di bici, dove ognuna di esse avrà proprietà: **name** e **weight**.
+1. Dichiariamo una variabile **lowerWeightBike** che ha come valore il primo indice dell'Array di bici.
+2. Generiamo un ciclo For che confronta il peso di ogni bici e riassegna alla variabile dichiarata prima l'oggetto con la proprietà peso più bassa;
+3. Stampiamo in console l'oggetto con peso più basso.

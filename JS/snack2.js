@@ -1,5 +1,5 @@
 // JS LINK RUN CHECK
-console.log('JS run as well #2');
+console.log('SNACK #2');
 
 // Array Studenti con: id, name e grades
 const studenti = [

@@ -1,5 +1,5 @@
 // JS LINK RUN CHECK
-console.log('JS run as well');
+console.log('SNACK #1');
 
 // Definiamo la variabile tavolo
 const tavolo = "Tavolo Vip";
